@@ -1,12 +1,12 @@
 # Card-Matching-Game
 
-# 🎮 Memory Match Game (FEH Proteus)
+# Memory Match Game (FEH Proteus)
 
 An interactive touchscreen-based memory matching game built in C++ using the FEH Proteus embedded system. Players flip cards to find matching pairs while tracking time and moves.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project implements a fully interactive **memory card matching game** with a graphical user interface, touch input, randomized gameplay, and performance tracking.
 
@@ -14,25 +14,25 @@ The game challenges users to match all 12 pairs of cards in the shortest time an
 
 ---
 
-## ✨ Features
+## Features
 
-* 🖥️ **Graphical User Interface**
+*  **Graphical User Interface**
 
   * Custom backgrounds, buttons, and card images
   * Interactive menu system (Play, Stats, Instructions, Credits)
 
-* 🎯 **Core Gameplay**
+*  **Core Gameplay**
 
   * 24 cards (12 matching pairs)
   * Flip-based matching logic
   * Prevents double-click matching exploits
 
-* 🔀 **Randomized Board**
+*  **Randomized Board**
 
   * Cards are shuffled each game using a custom randomization system
   * Ensures only two of each card exist
 
-* ⏱️ **Performance Tracking**
+*  **Performance Tracking**
 
   * Tracks:
 
@@ -40,19 +40,19 @@ The game challenges users to match all 12 pairs of cards in the shortest time an
     * Number of moves made
   * Displays stats in menu
 
-* 🧠 **Game Logic Enforcement**
+*  **Game Logic Enforcement**
 
   * Only two cards can be flipped at a time
   * Non-matching cards flip back after delay
   * Matching cards remain visible
 
-* 🎉 **Win Animation**
+*  **Win Animation**
 
   * Animated end screen with moving graphics upon completion
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Language:** C++
 * **Platform:** FEH Proteus Robot Controller
@@ -65,7 +65,7 @@ The game challenges users to match all 12 pairs of cards in the shortest time an
 
 ---
 
-## 🧩 How It Works
+##  How It Works
 
 ### 1. Menu System
 
@@ -150,7 +150,7 @@ The game challenges users to match all 12 pairs of cards in the shortest time an
 
 ---
 
-## 🎮 Controls
+##  Controls
 
 * Tap cards to flip them
 * Tap menu buttons to navigate
@@ -158,7 +158,7 @@ The game challenges users to match all 12 pairs of cards in the shortest time an
 
 ---
 
-## 📊 Example Gameplay Flow
+##  Example Gameplay Flow
 
 1. Start game from menu
 2. Cards are randomized and displayed face down
@@ -169,7 +169,7 @@ The game challenges users to match all 12 pairs of cards in the shortest time an
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 * Code is repetitive for each card (manual handling of 24 cards)
 * No dynamic data structures (arrays/vectors could improve scalability)
@@ -177,7 +177,7 @@ The game challenges users to match all 12 pairs of cards in the shortest time an
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Refactor using arrays or structs for cleaner card handling
 * Add difficulty levels (grid size variations)
@@ -187,7 +187,7 @@ The game challenges users to match all 12 pairs of cards in the shortest time an
 
 ---
 
-## 🧠 Key Learning Outcomes
+##  Key Learning Outcomes
 
 * Event-driven programming with touch input
 * GUI design in embedded systems
@@ -197,7 +197,7 @@ The game challenges users to match all 12 pairs of cards in the shortest time an
 
 ---
 
-## 👥 Credits
+##  Credits
 
 * Avi Maloo
 * Malia Weatherbie
